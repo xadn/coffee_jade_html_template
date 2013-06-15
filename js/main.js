@@ -1,0 +1,1 @@
+$(document.body).append(jade.compile($("script[type='text/jade']").text(), {})())
